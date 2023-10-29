@@ -1,0 +1,329 @@
+.image-gallery {
+  text-align: center;
+ /* Dark blue background color */
+  padding: 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between; /* Adjust the spacing between images */
+  border: 1px solid #0e0d0d; /* Add a border around the container */
+  padding: 1px; /* Add some padding to the container */
+}
+
+.image-box {
+  flex: 1; /* Distribute available space equally among images */
+  border: 1px solid #0a0a0a;
+  background-color: #180b32; /* White background for the image boxes */
+  padding: 10px; /* Add a border around each image */
+}
+
+.image-box img {
+  max-width: 100%;
+  height: auto;
+}
+.image-box img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease; /* Add a transition for the transform property */
+}
+
+.image-box img:hover {
+  transform: scale(1.1); /* Scale the image by 10% on hover */
+}
+.image-box img.clicked {
+  background-color: black;
+  border: 2px solid yellow;
+}
+.topic h1{
+  text-align: center;
+}
+
+.topic h1 {
+  color: rgb(244, 244, 248); /* Set the text color to dark blue */
+  font-size: 2rem; /* Set the font size to 2rem */
+  transition: color 0.3s; /* Add a smooth color transition effect */
+}
+
+.topic h1:hover {
+  color:#292238; /* Change the text color to yellow on hover */
+  text-shadow: 2px 2px 2px black; /* Add a black shadow for a mix effect */
+}
+body {
+  background: linear-gradient(to bottom, rgb(203, 237, 67), rgb(111, 16, 16)); /* Create a linear gradient background */
+}
+* {
+  font-family: sans-serif;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  margin: 5px;
+}
+
+body {
+  background: #333;
+  text-transform: uppercase;
+}
+
+.skill {
+  width: 500px;
+  margin: 60px auto;
+  color: #292238;
+  padding: 20px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.skill li {
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.bar {
+  background: #333;
+  display: block;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.bar:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.bar span {
+  height: 20px;
+  float: left;
+  background: linear-gradient(135deg, rgba(236, 0, 140, 1) 0%, rgba(252, 103, 103, 1) 100%);
+}
+
+.html {
+  width: 0%;
+  animation: html 3s;
+}
+
+.css {
+  width: 0%;
+  animation: css 3s;
+}
+
+.Boostrap {
+  width: 0%;
+  animation:Boostrap 3s;
+}
+
+.javascript {
+  width: 0%;
+  animation: javascript 3s;
+}
+.Anguler {
+  width: 0%;
+  animation: Anguler 3s;
+}
+.React {
+  width: 0%;
+  animation: React 3s;
+}
+.Git {
+  width: 0%;
+  animation:Git 3s;
+}
+.Vuejs {
+  width: 0%;
+  animation: Vuejs 3s;
+}
+
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes javascript {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes Boostrap {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+  
+}
+@keyframes Anguler {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }}
+
+  @keyframes React {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 80%;
+    }}
+
+    @keyframes Git {
+      0% {
+        width: 0%;
+      }
+      100% {
+        width: 70%;
+      }}
+
+      @keyframes Vuejs {
+        0% {
+          width: 0%;
+        }
+        100% {
+          width: 70%;
+        }}
+
+
+.html {
+  width: 90%;
+  /* Remove animation for immediate loading */
+}
+
+.css {
+  width: 80%;
+  /* Remove animation for immediate loading */
+}
+
+.Boostrap {
+  width: 80%;
+  /* Remove animation for immediate loading */
+}
+
+.javascript {
+  width: 80%;
+  /* Remove animation for immediate loading */
+}
+.React{
+  width: 80%;
+}
+.Anguler{
+  width: 70%;
+}
+.Git{
+  width: 70%;
+}
+.Vuejs{
+  width: 70%;
+}
+.styled-button {
+  background-color: #007bff; /* Button background color (blue) */
+  color: white; /* Button text color (white) */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add a smooth hover effect */
+}
+
+.styled-button a {
+  color: rgb(111, 18, 18); /* Button text color (white) */
+  text-decoration: none;
+}
+
+.styled-button:hover {
+  background-color: #bbe13d; /* Button background color on hover (darker blue) */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+  font-family: sans-serif;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  margin: 5px;
+}
+
+body {
+  background: #333;
+  text-transform: uppercase;
+}
+
+.skill {
+  width: 500px;
+  margin: 60px auto;
+  color: #7e9949;
+  padding: 20px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.skill li {
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.bar {
+  background: #432525;
+  display: block;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.bar:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.bar span {
+  height: 20px;
+  float: left;
+  background: linear-gradient(135deg, rgba(236, 0, 140, 1) 0%, rgba(252, 103, 103, 1) 100%);
+}
